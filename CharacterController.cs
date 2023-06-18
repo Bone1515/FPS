@@ -32,3 +32,8 @@ public class CharacterController : MonoBehaviour
         bulletRigidbody.velocity = transform.forward * 10f; // 총알의 속도 및 방향 조정
     }
 }
+//Unity 에디터에서 새로운 스크립트 파일을 만들고 위의 코드를 붙여넣습니다. 파일 이름은 "CharacterController.cs"와 같이 지정해야 합니다.
+
+//필요한 경우, 사용할 총알 프리팹을 미리 준비하고 캐릭터 오브젝트에 연결합니다.
+
+//총알이 발사될 위치를 결정하기 위해 게임 오브젝트의 특정 Transform을 할당합니다. 예를 들어, 빈 게임 오브젝트를 생성하여 캐릭터 앞쪽에 배치하고 해당 Transform을 bulletSpawnPoint에 할당합니다.
